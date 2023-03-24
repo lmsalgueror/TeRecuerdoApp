@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Te Recuerdo</title>
+    <link rel="stylesheet" href="signin.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="main-section">
+        <div id="image-logo-section" class="image-logo-section">
+            <div class="logo-section-text">
+                <img src="img/TRlogo.png" class="logo-small">
+                <p class="logo-text">Te Recuerdo</p>
+            </div>
+            <p class="image-section-text title-section">¡Mantén al día los pagos de tu club!</p>
+            <p class="image-section-text">Programa recordatorios de pago con un clic y olvídate del estrés de la gestión de pagos. ¡Prueba nuestra herramienta automatizada hoy mismo!</p>
+            <img src="img/2.png" class="side-picture">
+        </div>
+
+        <div id="register-section" class="register-section">
+            <div class="name-and-mail">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="name-info" id="name-info" placeholder="Nombre" class="input-form">
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" name="email-info" id="name-info" placeholder="E-mail" class="input-form">
+                </div>
+            </div>
+
+            <div>
+                <label for="interval-info">Número de usuarios: </label>
+                <input list="interval-list">
+                <datalist id="interval-list">
+                    <option value="10-50 usuarios">
+                    <option value="50-100 usuarios">
+                    <option value="100-150 usuarios">
+                    <option value=">150 usuarios">
+                </datalist>
+            </div>
+
+            <fieldset>
+                <legend>Seleccionar avatar</legend>
+                <div class="avatar-section">
+
+                    <input type="radio" name="sports" id="sports">
+                    <label for="sports"><img src="img/sports.png" class="logo-small"></label>
+
+                    <input type="radio" name="music" id="music">
+                    <label for="music"><img src="img/music.png" class="logo-small"></label>
+
+                    <input type="radio" name="art" id="art">
+                    <label for="art"><img src="img/art.png" class="logo-small"></label>
+
+                    <input type="radio" name="cooking" id="cooking">
+                    <label for="cooking"><img src="img/cook.png" class="logo-small"></label>
+
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="password-info">Contraseña:</label>
+                <input type="password" name="password-info" id="password-info" placeholder="Escribir contraseña">
+                <input type="password" name="password-info" id="password-info" placeholder="Repetir contraseña">
+
+            </div>
+
+            <button id="register-btn" class="blue-button">Registrar</button>
+
+
+        </div>
+
+
+    </div>
+
+</body>

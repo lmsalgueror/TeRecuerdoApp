@@ -1,0 +1,120 @@
+body {
+    margin: 40px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: #171219;
+}
+
+
+/*Layouts*/
+
+.main-section {
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.avatar-section {
+    display: flex;
+}
+
+.image-logo-section {
+    width: 40%;
+    height: 660px;
+    background-color: #61B1E6;
+    border-radius: 10px 0 0 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-section-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.register-section {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 50%;
+    background-color: pink;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.name-and-mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-form {
+    width: 250px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+/*Text*/
+
+.logo-text {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.image-section-text {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.title-section {
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 0;
+    margin-top: 20px;
+}
+
+i {
+    font-size: 1.3rem;
+}
+
+
+/*Images*/
+
+.side-picture {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo-small {
+    width: 60px;
+    height: 60px;
+}
+
+
+/*Buttons*/
+
+.blue-button {
+    background-image: linear-gradient(90deg, #145DA0, #61B1E6);
+    width: 200px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 200px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+}

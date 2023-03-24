@@ -1,0 +1,107 @@
+/*Colores
+Lapis Lazuli: #145DA0
+Argentinian Blue: #61B1E6
+White: #FFFFFF
+Puce: #D88C9A
+Licorice: #171219
+*/
+
+
+/*Layouts*/
+
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: #171219;
+}
+
+.login,
+.log-form,
+.form-info,
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.log-form {
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.form-info {
+    align-items: flex-start;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.form-info label {
+    font-size: 0.8rem;
+}
+
+.input-log {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px lightgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
+.register-text {
+    margin-top: 40px;
+}
+
+
+/*Fonts*/
+
+.sign-up {
+    margin-left: 5px;
+    color: #145DA0;
+    font-weight: 600;
+}
+
+.sign-up:hover {
+    color: #D88C9A;
+}
+
+
+/*Images*/
+
+.logo-main {
+    margin-top: 30px;
+    width: 200px;
+}
+
+
+/*Buttons*/
+
+.blue-button {
+    background-image: linear-gradient(90deg, #145DA0, #61B1E6);
+    width: 200px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 200px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+
+/*Responsive*/
