@@ -23,13 +23,14 @@
             </div>
             <div class="copy-text-section">
                 <p class="image-section-text title-section">¡Mantén al día los pagos de tu club!</p>
-                <p class="image-section-text">Programa recordatorios de pago con un clic y olvídate del estrés de la gestión de pagos. ¡Prueba nuestra herramienta automatizada hoy mismo!</p>
+                <p class="image-section-text">Programa recordatorios de pago con un click y olvídate del estrés de la gestión de pagos. ¡Prueba nuestra herramienta automatizada hoy mismo!</p>
             </div>
             <img src="img/2.png" class="side-picture">
         </div>
 
         <div id="register-section" class="register-section">
             <h1>Regístrate</h1>
+
             <div class="name-and-mail">
                 <div>
                     <i class="fa-solid fa-user"></i>
@@ -42,7 +43,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="fieldset-section">
                 <fieldset class="users-interval-fieldset">
                     <legend>Selecciona el número de usuarios</legend>
                     <label>
@@ -65,40 +66,44 @@
                       <span>&gt;150 usuarios</span>
                     </label>
                 </fieldset>
-
             </div>
 
-            <fieldset class="users-interval-fieldset">
-                <legend>Selecciona tu avatar</legend>
-                <div class="avatar-section">
-                    <input type="radio" name="avatar" id="sports" value="sports" class="image-radio-input">
-                    <label for="sports">
+            <div class="fieldset-section">
+                <fieldset class="users-interval-fieldset">
+                    <legend>Selecciona tu avatar</legend>
+                    <div class="avatar-section">
+                        <input type="radio" name="avatar" id="sports" value="sports" class="image-radio-input">
+                        <label for="sports">
                         <img src="img/sports.png" class="avatar">
                     </label>
 
-                    <input type="radio" name="avatar" id="music" value="music" style="display:none;">
-                    <label for="music">
+                        <input type="radio" name="avatar" id="music" value="music" style="display:none;">
+                        <label for="music">
                         <img src="img/music.png" class="avatar">
                     </label>
 
-                    <input type="radio" name="avatar" id="art" value="art" style="display:none;">
-                    <label for="art">
+                        <input type="radio" name="avatar" id="art" value="art" style="display:none;">
+                        <label for="art">
                         <img src="img/art.png" class="avatar">
                     </label>
 
-                    <input type="radio" name="avatar" id="cooking" value="cooking" style="display:none;">
-                    <label for="cooking">
+                        <input type="radio" name="avatar" id="cooking" value="cooking" style="display:none;">
+                        <label for="cooking">
                         <img src="img/cook.png" class="avatar">
                     </label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="password-section">
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password-info" id="password-info" class="input-form" placeholder="Escribir contraseña">
                 </div>
-            </fieldset>
-
-
-            <div>
-                <label for="password-info">Contraseña:</label>
-                <input type="password" name="password-info" id="password-info" placeholder="Escribir contraseña">
-                <input type="password" name="password-info" id="password-info" placeholder="Repetir contraseña">
-
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password-info" id="password-info" class="input-form" placeholder="Repetir contraseña">
+                </div>
             </div>
 
             <button id="register-btn" class="blue-button">Registrar</button>
