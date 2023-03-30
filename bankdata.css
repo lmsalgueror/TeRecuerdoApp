@@ -1,0 +1,126 @@
+    body {
+        margin: 40px;
+        background-image: url(img/background.jpg);
+        background-size: cover;
+        font-family: 'Quicksand', sans-serif;
+        color: #171219;
+    }
+    /*Layouts*/
+    
+    .main-section {
+        height: 720px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px auto;
+        display: flex;
+    }
+    
+    .side-panel {
+        width: 20%;
+        height: 680px;
+        background-color: #61B1E6;
+        border-radius: 10px 0 0 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .club-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-section {
+        width: 100%;
+    }
+    
+    .menu-category {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        color: white;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 10px 0;
+    }
+    
+    .menu-category:hover {
+        color: #D88C9A;
+        background-color: azure;
+        border-radius: 200px;
+    }
+    
+    .bank-info-section {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 640px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+    
+    .bank-info-section i:hover {
+        color: #D88C9A;
+    }
+    
+    .bank-info-section h1 {
+        margin-top: -50px;
+        margin-bottom: -100px;
+    }
+    
+    .table-bank-info {
+        width: 120%;
+        text-align: center;
+        overflow-x: auto;
+    }
+    
+    th {
+        background-color: #145DA0;
+        color: white;
+        width: max-content;
+    }
+    
+    td {
+        height: 40px;
+    }
+    /**Images**/
+    
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    /*Typho*/
+    
+    .menu-category i {
+        font-size: 1.3rem;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    /*Buttons*/
+    
+    .blue-button {
+        background-image: linear-gradient(90deg, #145DA0, #61B1E6);
+        width: 200px;
+        height: 40px;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 200px;
+        font-size: 1rem;
+        color: white;
+        font-weight: 600;
+        margin-top: -50px;
+    }
+    /*Responsive*/
+    
+    @media (max-width: 768px) {
+        .table-bank-info {
+            width: 100%;
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
